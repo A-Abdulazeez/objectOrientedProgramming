@@ -125,4 +125,9 @@ public class Bank {
         senderAccount.withdraw(amount, password);
         receiverAccount.deposit(amount);
     }
+
+    public String generateAccountNUmber() {
+        return "";
+
+    }
 }
